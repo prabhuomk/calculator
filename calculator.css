@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+table {
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 50px;
+	border: 1px solid black;
+	
+	background-color: #282C35;
+	box-shadow: 10px 10px black;
+	
+}
+
+.keys {
+	font-size: 30px;
+	border-radius:5px;
+	background-color: white;
+	width: 70px;
+	height: 60px;
+	box-shadow: 5px 5px black;
+	padding:7px 22px 23px 8px;
+	outline: none;
+}
+
+#pannel,.brand
+{
+
+padding:26px 15px 4px 15px;
+}
+
+.opera{
+
+        border-radius:5px;
+        font-size: 30px;
+	background-color: white;
+	width: 70px;
+	height: 60px;
+	box-shadow: 5px 5px black;
+	outline: none;
+
+
+}
+
+button{
+
+outline: none;
+}
+
+#arrow
+{
+       color:white;
+       border-radius:5px;
+        font-size: 30px;
+	background-color:#1F51FF;
+	width: 70px;
+	height: 60px;
+	box-shadow: 5px 5px black;
+	outline: none;
+}
+
+td {
+	padding: 15px;
+}
+
+
+.keys:active {
+	background-color: grey;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+.opera:active {
+	background-color: grey;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+#checker{
+
+       font-size: 20px;
+	width: 410px;
+	height: 40px;
+	margin-top: 20px;
+	box-shadow: 5px 5px black;
+	background-color:#deecb8;
+        text-align: right;
+        border-bottom-style:none;
+        border-top-left-radius:5px;
+	border-top-right-radius:5px;
+
+
+}
+
+
+#display {
+	font-size: 40px;
+	width: 410px;
+	height: 40px;
+	margin-bottom: 10px;
+	box-shadow: 5px 5px black;
+	background-color:#deecb8;
+        text-align: right;
+        border-top-style:none;
+        border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+        
+       
+        
+	
+}
+
+
+.brand
+{
+	color:white
+}
+
+#solar
+{
+	width: 20px;
+	height: 30px;
+	border: 2px solid black;
+	background-color:#C4A484;
+	display:inline-block;
+	box-shadow: 5px 5px black;
+	
+}
+
+
+#clean{
+	
+	background-color:#ff3800;
+}
+#recent{
+
+background-color:#00A86B;
+}
+
+#dot{
+
+padding:3px 20px 27px 10px;
+}
+
+sup{
+
+font-size:18px;
+}
+
+
+

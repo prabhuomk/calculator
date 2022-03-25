@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+<link rel="stylesheet" href="calculator.css" type="text/css">
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+	integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+	crossorigin="anonymous" />
+
+<script src="calculator1.js"></script>
+
+</head>
+<body>
+	<table id="customers" >
+	       
+
+		<tr>
+			<th colspan="4"><input type="text" name="Input" id="checker" ><input type="text" name="Input" id="display" value="0" ></th>
+		</tr>
+		<tr>	
+			
+			
+			
+			<td class="brand"><b>PK's</br> Calculator</b></td>
+			<td></td>
+			<td colspan="2" id="pannel"><input type="text" name="In" id="solar" disabled><input type="text" name="In" id="solar" disabled><input type="text" name="In" id="solar" disabled><input type="text" name="In" id="solar" disabled><input type="text" name="In" id="solar" disabled><input type="text" name="In" id="solar" disabled><input type="text" name="In" id="solar" disabled></td>
+		
+			
+		</tr>
+		<tr>
+
+		        <td></td>
+			<td><button class="opera" onclick="clearLast()" data-toggle="tooltip" data-placement="right" title="Clear last data">⌫</button></td>
+			<td><input type="button" name="clear" value="CE" class="keys" id="recent"
+				onclick="clearRecent()" data-toggle="tooltip" data-placement="right" title="clear data after the last operator"></td>
+			<td><input type="button" name="clear" value="AC" class="keys" id="clean"
+				onclick="clearScreen()" data-toggle="tooltip" data-placement="right" title="Clear's all data"></td>
+		</tr>
+		<tr>
+			<td><input type="button" name="seven" value=" 7" class="keys"
+				onclick="digits('7')"></td>
+			<td><input type="button" name="eight" value=" 8 " class="keys"
+				onclick="digits('8')"></td>
+			<td><input type="button" name="nine" value=" 9 " class="keys"
+				onclick="digits('9')"></td>
+			<td><input type="button" name="divide" value=" / " class="opera" id="/"
+				onclick="task('/')"></td>
+				
+		</tr>
+		<tr>
+			<td><input type="button" name="four" value=" 4" class="keys"
+				onclick="digits('4')"></td>
+			<td><input type="button" name="five" value=" 5" class="keys"
+				onclick="digits('5')"></td>
+			<td><input type="button" name="six" value=" 6" class="keys"
+				onclick="digits('6')"></td>
+			<td><input type="button" name="multipy" value=" *" class="opera" id="*"
+				onclick="task('*')"></td>
+				
+		</tr>
+		<tr>
+			<td><input type="button" name="one" value=" 1" class="keys"
+				onclick="digits('1')"></td>
+			<td><input type="button" name="two" value=" 2" class="keys"
+				onclick="digits('2')"></td>
+			<td><input type="button" name="three" value=" 3" class="keys"
+				onclick="digits('3')"></td>
+			<td><input type="button" name="minus" value=" -" class="opera" id="-"
+				onclick="task('-')"></td>
+		        
+		</tr>
+		<tr>
+			<td><input type="button" name="dot" value=" ." class="keys" id="."
+				onclick="digits('.')"></td>
+			<td><input type="button" name="zero" value=" 0" class="keys"
+				onclick="digits('0')"></td>
+			<td><input type="button" name="plus" value=" +" class="opera" id="+"
+				onclick="task('+')"></td>
+			<td><input type="button" name="equal" value=" =" class="keys" id="equals"
+				onclick="calculate(true)"></td>
+			
+		</tr>
+		
+		
+	</table>
+	
+	
+</body>
+</html>
